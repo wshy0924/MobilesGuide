@@ -1,8 +1,8 @@
 package com.jeremy.antdlib.serviceimpl;
 
-import java.util.List;
-import java.util.Map;
-
+import com.jeremy.antdlib.entity.AppDeptEntity;
+import com.jeremy.antdlib.serviceinf.AppDeptServiceinf;
+import com.jeremy.antdlib.utils.BeanMapUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,10 +12,8 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 
-import com.jeremy.antdlib.entity.AppDeptEntity;
-import com.jeremy.antdlib.entity.DepartEntity;
-import com.jeremy.antdlib.serviceinf.AppDeptServiceinf;
-import com.jeremy.antdlib.utils.BeanMapUtil;
+import java.util.List;
+import java.util.Map;
 @Service
 public class AppDeptServiceImpl implements AppDeptServiceinf{
 	private final static Logger logger = LoggerFactory.getLogger(AppDeptServiceImpl.class);

@@ -1,8 +1,9 @@
 package com.jeremy.antdlib.serviceimpl;
 
-import java.util.List;
-import java.util.Map;
-
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.jeremy.antdlib.entity.DepartEntity;
+import com.jeremy.antdlib.serviceinf.DepartServiceInf;
+import com.jeremy.antdlib.utils.BeanMapUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,10 +13,8 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.jeremy.antdlib.entity.DepartEntity;
-import com.jeremy.antdlib.serviceinf.DepartServiceInf;
-import com.jeremy.antdlib.utils.BeanMapUtil;
+import java.util.List;
+import java.util.Map;
 
 @Service
 public class DepartServiceImpl implements DepartServiceInf{

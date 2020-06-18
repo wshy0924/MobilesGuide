@@ -1,31 +1,22 @@
 package com.jeremy.antdlib.serviceimpl;
 
-import java.util.List;
-import java.util.Map;
-
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.jeremy.antdlib.entity.DiseaseEntity;
+import com.jeremy.antdlib.serviceinf.DiseaseServiceInf;
+import com.jeremy.antdlib.utils.BeanMapUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.mongodb.core.aggregation.Aggregation;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 
-import com.alibaba.fastjson.JSON;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.jeremy.antdlib.entity.DepartEntity;
-import com.jeremy.antdlib.entity.DiseaseEntity;
-import com.jeremy.antdlib.entity.PageResult;
-import com.jeremy.antdlib.serviceinf.DiseaseServiceInf;
-import com.jeremy.antdlib.utils.BeanMapUtil;
-import com.mongodb.BasicDBObject;
-import com.mongodb.WriteResult;
-import com.mongodb.client.result.UpdateResult;
+import java.util.List;
+import java.util.Map;
 
 @Service
 public class DiseaseServiceImpl implements DiseaseServiceInf{

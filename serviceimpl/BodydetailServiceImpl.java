@@ -1,8 +1,8 @@
 package com.jeremy.antdlib.serviceimpl;
 
-import java.util.List;
-import java.util.Map;
-
+import com.jeremy.antdlib.entity.BodydetailEntity;
+import com.jeremy.antdlib.serviceinf.BodydetailServiceInf;
+import com.jeremy.antdlib.utils.BeanMapUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,11 +11,8 @@ import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
 
-import com.jeremy.antdlib.entity.AppDeptEntity;
-import com.jeremy.antdlib.entity.BodydetailEntity;
-import com.jeremy.antdlib.entity.DiseaseEntity;
-import com.jeremy.antdlib.serviceinf.BodydetailServiceInf;
-import com.jeremy.antdlib.utils.BeanMapUtil;
+import java.util.List;
+import java.util.Map;
 
 @Service
 public class BodydetailServiceImpl implements BodydetailServiceInf {
