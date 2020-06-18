@@ -1,0 +1,3 @@
+23:09:43.998 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-999H49BF with PID 37740 (E:\SpringBootPtoject\MogoDB_demo\target\classes started by ASUS in E:\SpringBootPtoject\MogoDB_demo)
+23:09:44.000 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+23:09:48.803 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 5.246 seconds (JVM running for 5.591)

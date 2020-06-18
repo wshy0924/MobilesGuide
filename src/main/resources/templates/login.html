@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		 <!-- 页面的宽度与设备屏幕的宽度一致
+         初始缩放比例 1:1 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+		<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="/css/style.css" type="text/css" />
+		<title>登录界面</title>
+	</head>
+
+<style type="text/css">
+	.bk{
+	  background-image: url(../lib/img/beijing5.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover; 
+	  text-align: center;
+	  
+}
+#input1{
+	 width: 300px;
+	height: 40px;
+	border-radius: 15px;
+	margin: 10px 0;
+	background: url(../lib/img/yonghu.png) no-repeat;
+	background-color: white;
+	background-position: 10px;
+	padding-left: 30px;
+	border: 2px solid lightblue;
+}
+
+#input2{
+	width: 300px;
+	height: 40px;
+	border-radius: 15px;
+	margin: 10px 0;
+	background: url(../lib/img/mima.png) no-repeat;
+	background-color: white;
+	background-position: 10px;
+	padding-left: 30px;
+	border: 2px solid lightblue;
+}
+#span1{
+	font-size: 28px;
+	font-family: "黑体";
+	font-weight: bolder;
+}
+#btn{
+	width: 300px;
+	height: 40px;
+	border-radius: 15px;
+	margin: 10px 0;
+	background-position: 10px;
+	border: 2px solid lightblue;
+}
+
+
+
+</style>
+
+	<body class="bk">	
+	
+<div class="container" style="margin-top:150px;" align="center">
+	<div style="margin-bottom: 40px;" id="div1" align="center">
+		 <span id="span1">
+				  <img src="../lib/img/yun5.png" >
+			<span >遵义市播州区人民医院 处方一码付数据查询管理系统</span>
+		</span>
+	</div>
+	<div class="row clearfix" style="margin-left: 150px;">
+		<div class="col-md-12 column" >
+			<form class="form-horizontal" role="form" action="/bz_web/denglu/databases" method="post">
+				
+				<div class="form-group" >
+					<!-- <label class="col-sm-2 control-label" for="username">用户名</label> -->
+					<div class="col-sm-10">
+						<input class="form-control" id = "input1" name="username"  placeholder="请输入用户名"/>
+					</div>
+				</div>
+				<div class="form-group" >
+					<!-- <label class="col-sm-2 control-label" for="password">密码</label> -->
+					<div class="col-sm-10">
+						<input class="form-control" id = "input2" type="password" name="password"   placeholder="请输入密码"/>
+					</div>
+				</div>
+				<div class="form-group" style="margin-right: 230px;">
+					<div class="col-sm-10">
+						<div class="checkbox">
+							 <label><input type="checkbox" />记住密码</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class=" col-sm-10">
+						 <button class="btn btn-default btn-info" type="submit" id="btn">登录</button>
+					</div>
+				</div>
+				
+			</form>
+		</div>
+	</div>
+</div>
+		
+	</body>
+	
+	<script type="text/javascript">
+		
+	</script>
+</html>

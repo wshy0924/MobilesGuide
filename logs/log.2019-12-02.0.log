@@ -1,0 +1,526 @@
+11:08:07.627 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 26868 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+11:08:07.629 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+11:08:08.042 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ggeit.pay]' package. Please check your configuration.
+11:08:08.780 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:08:08.787 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:08:08.788 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+11:08:08.790 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+11:08:08.790 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+11:08:08.790 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:08:08.790 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:08:10.478 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+11:08:10.561 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:08:10.562 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2877 ms
+11:08:10.562 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2877 ms
+11:08:10.633 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+11:08:10.735 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:08:11.055 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:08:11.155 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+11:08:11.189 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gsonBuilder' defined in class path resource [org/springframework/boot/autoconfigure/gson/GsonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.google.gson.GsonBuilder]: Factory method 'gsonBuilder' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoSuchMethodError: com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;
+11:08:11.190 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:08:11.191 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+11:08:11.193 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:08:11.203 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+11:08:11.207 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+
+The following method did not exist:
+
+    com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;
+
+The method's class, com.google.gson.GsonBuilder, is available from the following locations:
+
+    jar:file:/F:/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar!/com/google/gson/GsonBuilder.class
+
+It was loaded from the following location:
+
+    file:/F:/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of com.google.gson.GsonBuilder
+
+11:11:02.654 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 27700 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+11:11:02.656 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+11:11:03.063 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ggeit.pay]' package. Please check your configuration.
+11:11:03.432 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:11:03.440 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:11:03.440 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+11:11:03.443 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+11:11:03.443 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+11:11:03.443 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:11:03.443 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:11:04.579 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+11:11:04.647 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:11:04.647 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1937 ms
+11:11:04.647 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1937 ms
+11:11:04.714 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+11:11:04.812 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:11:05.101 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:11:05.186 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+11:11:05.216 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gsonBuilder' defined in class path resource [org/springframework/boot/autoconfigure/gson/GsonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.google.gson.GsonBuilder]: Factory method 'gsonBuilder' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoSuchMethodError: com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;
+11:11:05.217 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:11:05.218 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+11:11:05.220 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:11:05.228 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+11:11:05.232 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+
+The following method did not exist:
+
+    com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;
+
+The method's class, com.google.gson.GsonBuilder, is available from the following locations:
+
+    jar:file:/F:/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar!/com/google/gson/GsonBuilder.class
+
+It was loaded from the following location:
+
+    file:/F:/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of com.google.gson.GsonBuilder
+
+11:24:25.200 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 9016 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+11:24:25.252 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+11:24:27.529 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ggeit.pay]' package. Please check your configuration.
+11:24:28.932 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:24:28.944 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:24:28.944 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+11:24:28.947 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+11:24:28.947 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+11:24:28.948 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:24:28.948 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:24:30.156 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+11:24:30.262 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:24:30.263 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4776 ms
+11:24:30.263 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4776 ms
+11:24:30.378 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+11:24:30.654 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:24:31.306 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:24:31.466 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+11:24:31.516 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gsonBuilder' defined in class path resource [org/springframework/boot/autoconfigure/gson/GsonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.google.gson.GsonBuilder]: Factory method 'gsonBuilder' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoSuchMethodError: com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;
+11:24:31.517 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:24:31.518 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+11:24:31.567 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:24:31.582 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+11:24:31.587 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+
+The following method did not exist:
+
+    com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;
+
+The method's class, com.google.gson.GsonBuilder, is available from the following locations:
+
+    jar:file:/F:/repository/com/google/code/gson/gson/2.3/gson-2.3.jar!/com/google/gson/GsonBuilder.class
+
+It was loaded from the following location:
+
+    file:/F:/repository/com/google/code/gson/gson/2.3/gson-2.3.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of com.google.gson.GsonBuilder
+
+11:40:30.225 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 25672 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+11:40:30.253 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+11:40:30.770 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ggeit.pay]' package. Please check your configuration.
+11:40:31.385 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:40:31.398 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:40:31.398 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+11:40:31.400 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+11:40:31.400 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+11:40:31.400 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:40:31.401 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:40:32.607 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+11:40:32.756 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:40:32.756 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2367 ms
+11:40:32.756 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2367 ms
+11:40:32.866 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+11:40:33.159 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:40:33.689 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:40:34.347 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+11:40:34.472 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gsonBuilder' defined in class path resource [org/springframework/boot/autoconfigure/gson/GsonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.google.gson.GsonBuilder]: Factory method 'gsonBuilder' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoSuchMethodError: com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;
+11:40:34.473 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:40:34.474 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+11:40:34.476 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:40:34.518 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+11:40:34.543 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+
+The following method did not exist:
+
+    com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;
+
+The method's class, com.google.gson.GsonBuilder, is available from the following locations:
+
+    jar:file:/F:/repository/com/google/code/gson/gson/2.3/gson-2.3.jar!/com/google/gson/GsonBuilder.class
+
+It was loaded from the following location:
+
+    file:/F:/repository/com/google/code/gson/gson/2.3/gson-2.3.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of com.google.gson.GsonBuilder
+
+12:02:38.290 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 11856 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+12:02:38.392 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:02:38.893 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ggeit.pay]' package. Please check your configuration.
+12:02:39.300 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+12:02:39.308 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:02:39.308 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+12:02:39.309 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+12:02:39.310 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+12:02:39.310 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:02:39.310 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:02:40.372 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+12:02:40.440 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:02:40.441 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1973 ms
+12:02:40.441 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1973 ms
+12:02:40.503 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:02:40.601 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:02:40.881 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:02:40.972 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+12:02:41.293 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+12:02:41.296 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 3.371 seconds (JVM running for 4.423)
+12:05:06.541 [http-nio-80-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:05:06.542 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:05:06.542 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:05:06.567 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 25 ms
+12:05:06.567 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 25 ms
+12:05:14.437 [http-nio-80-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for order.findall
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for order.findall] with root cause
+java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for order.findall
+	at org.apache.ibatis.session.Configuration$StrictMap.get(Configuration.java:875)
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:708)
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:701)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy60.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:222)
+	at com.ggeit.pay.impl.OrderService.selectAll(OrderService.java:38)
+	at com.ggeit.pay.controller.LayerController.showUsers(LayerController.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+12:10:29.958 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+12:10:29.961 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+12:10:29.962 [RMI TCP Connection(2)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+12:11:16.965 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 980 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+12:11:16.967 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:11:17.360 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ggeit.pay]' package. Please check your configuration.
+12:11:17.721 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+12:11:17.728 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:11:17.728 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+12:11:17.729 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+12:11:17.730 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+12:11:17.730 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:11:17.730 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:11:18.797 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+12:11:18.861 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:11:18.861 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1842 ms
+12:11:18.861 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1842 ms
+12:11:18.926 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:11:19.022 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:11:19.309 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:11:19.395 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+12:11:19.512 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+12:11:19.514 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 2.911 seconds (JVM running for 3.95)
+12:12:29.209 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+12:12:29.210 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+12:12:29.212 [RMI TCP Connection(2)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+12:12:44.368 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 1804 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+12:12:44.370 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:12:44.764 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ggeit.pay]' package. Please check your configuration.
+12:12:45.124 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+12:12:45.132 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:12:45.132 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+12:12:45.133 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+12:12:45.133 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+12:12:45.133 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:12:45.134 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:12:46.199 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+12:12:46.267 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:12:46.267 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1843 ms
+12:12:46.267 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1843 ms
+12:12:46.330 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:12:46.426 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:12:46.702 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:12:46.788 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+12:12:46.903 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+12:12:46.905 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 2.896 seconds (JVM running for 3.918)
+12:21:07.013 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 3168 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+12:21:07.016 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:21:07.415 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ggeit.pay]' package. Please check your configuration.
+12:21:07.793 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+12:21:07.801 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:21:07.801 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+12:21:07.803 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+12:21:07.803 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+12:21:07.803 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:21:07.803 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:21:08.867 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+12:21:08.933 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:21:08.934 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1864 ms
+12:21:08.934 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1864 ms
+12:21:09.003 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:21:09.104 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:21:09.390 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:21:09.482 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+12:21:09.596 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:21:09.602 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+12:21:09.606 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 80 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 80 or configure this application to listen on another port.
+
+12:21:09.608 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+12:21:09.608 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+12:21:20.371 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+12:21:20.373 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+12:21:20.375 [RMI TCP Connection(2)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+12:21:32.902 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 4924 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+12:21:32.904 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:21:33.308 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ggeit.pay]' package. Please check your configuration.
+12:21:33.690 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+12:21:33.697 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:21:33.698 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+12:21:33.699 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+12:21:33.699 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+12:21:33.699 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:21:33.699 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:21:34.791 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+12:21:34.855 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:21:34.855 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1895 ms
+12:21:34.855 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1895 ms
+12:21:34.919 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:21:35.018 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:21:35.306 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:21:35.395 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+12:21:35.516 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+12:21:35.518 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 2.979 seconds (JVM running for 4.027)
+12:23:10.482 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+12:23:10.483 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+12:23:10.484 [RMI TCP Connection(2)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+12:23:12.159 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 13672 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+12:23:12.161 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:23:12.595 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ggeit.pay]' package. Please check your configuration.
+12:23:12.985 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+12:23:12.993 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:23:12.993 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+12:23:12.994 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+12:23:12.994 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+12:23:12.995 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:23:12.995 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:23:14.067 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+12:23:14.134 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:23:14.135 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1919 ms
+12:23:14.135 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1919 ms
+12:23:14.198 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:23:14.306 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:23:14.591 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:23:14.636 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+12:23:14.720 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+12:23:14.834 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+12:23:14.836 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 3.053 seconds (JVM running for 4.182)
+12:26:04.753 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+12:26:04.755 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+12:26:04.758 [RMI TCP Connection(2)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+12:27:55.347 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 12988 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+12:27:55.349 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:27:55.746 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ggeit.pay]' package. Please check your configuration.
+12:27:56.111 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+12:27:56.118 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:27:56.119 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+12:27:56.120 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+12:27:56.120 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+12:27:56.120 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:27:56.121 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:27:57.189 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+12:27:57.255 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:27:57.256 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1851 ms
+12:27:57.256 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1851 ms
+12:27:57.320 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:27:57.420 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:27:57.704 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:27:57.749 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+12:27:57.790 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+12:27:57.910 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+12:27:57.912 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 2.935 seconds (JVM running for 3.978)
+13:03:19.343 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+13:03:19.345 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+13:03:19.346 [RMI TCP Connection(2)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+13:07:37.219 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 4980 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+13:07:37.227 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+13:07:37.634 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ggeit.pay]' package. Please check your configuration.
+13:07:37.997 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+13:07:38.004 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:07:38.004 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+13:07:38.006 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+13:07:38.006 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+13:07:38.006 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+13:07:38.006 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13:07:39.071 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+13:07:39.136 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:07:39.137 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1844 ms
+13:07:39.137 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1844 ms
+13:07:39.200 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+13:07:39.296 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+13:07:39.582 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:07:39.627 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+13:07:39.770 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+13:07:39.890 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+13:07:39.892 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 3.031 seconds (JVM running for 4.061)
+13:18:04.230 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+13:18:04.381 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+13:18:04.435 [RMI TCP Connection(2)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+13:18:20.276 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 13812 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+13:18:20.278 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+13:18:20.771 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ggeit.pay]' package. Please check your configuration.
+13:18:21.247 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:18:21.264 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:18:21.264 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+13:18:21.268 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+13:18:21.268 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+13:18:21.269 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+13:18:21.270 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13:18:22.357 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+13:18:22.423 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:18:22.423 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2091 ms
+13:18:22.423 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2091 ms
+13:18:22.486 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+13:18:22.586 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+13:18:22.869 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:18:22.914 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+13:18:22.956 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+13:18:23.072 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:18:23.074 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 3.164 seconds (JVM running for 4.463)
+13:18:44.245 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:18:44.246 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:18:44.246 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:18:44.290 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 44 ms
+13:18:44.290 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 44 ms
+13:18:44.344 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+13:18:44.344 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+13:22:51.975 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+13:22:52.146 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+13:22:52.179 [RMI TCP Connection(2)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -1,0 +1,34 @@
+11:08:07.627 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 26868 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+11:08:07.629 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+11:11:02.654 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 27700 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+11:11:02.656 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+11:24:25.200 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 9016 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+11:24:25.252 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+11:40:30.225 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 25672 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+11:40:30.253 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:02:38.290 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 11856 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+12:02:38.392 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:02:41.296 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 3.371 seconds (JVM running for 4.423)
+12:11:16.965 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 980 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+12:11:16.967 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:11:19.514 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 2.911 seconds (JVM running for 3.95)
+12:12:44.368 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 1804 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+12:12:44.370 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:12:46.905 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 2.896 seconds (JVM running for 3.918)
+12:21:07.013 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 3168 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+12:21:07.016 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:21:32.902 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 4924 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+12:21:32.904 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:21:35.518 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 2.979 seconds (JVM running for 4.027)
+12:23:12.159 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 13672 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+12:23:12.161 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:23:14.836 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 3.053 seconds (JVM running for 4.182)
+12:27:55.347 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 12988 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+12:27:55.349 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+12:27:57.912 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 2.935 seconds (JVM running for 3.978)
+13:07:37.219 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 4980 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+13:07:37.227 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+13:07:39.892 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 3.031 seconds (JVM running for 4.061)
+13:18:20.276 [main] INFO  com.ggeit.pay.BzWebApplication - Starting BzWebApplication on LAPTOP-DHQVS64H with PID 13812 (F:\SpringBootProject\BZ_web\target\classes started by asus in F:\SpringBootProject\BZ_web)
+13:18:20.278 [main] INFO  com.ggeit.pay.BzWebApplication - The following profiles are active: dev2
+13:18:23.074 [main] INFO  com.ggeit.pay.BzWebApplication - Started BzWebApplication in 3.164 seconds (JVM running for 4.463)
